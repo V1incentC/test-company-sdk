@@ -14,5 +14,5 @@ if(EXISTS "${PRIVATE_SRC}/CMakeLists.txt")
 else()
     message(STATUS " [TEST] Linking PUBLIC BINARY")
     # We will add the .a file later
-    zephyr_library_link_libraries(${CMAKE_CURRENT_LIST_DIR}/lib/libmodem_core.a)
+    zephyr_link_libraries(${CMAKE_CURRENT_LIST_DIR}/lib/libmodem_core.a)
 endif()
