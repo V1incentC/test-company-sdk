@@ -1,6 +1,6 @@
 # Standard Zephyr Boilerplate
 zephyr_library()
-zephyr_library_include_directories(include)
+zephyr_include_directories(include)
 
 # 1. Calculate path to where source WOULD be if it existed
 #    (Standard West layout: workspace/modules/lib/...)
